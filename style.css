@@ -250,20 +250,42 @@ body {
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 600px) {
   #meals {
-  text-align: center;
+    text-align: center;
   }
   #recipe {
-  text-align: center;
+    /* text-align: center; */
+    margin: auto;
+    width: 80%;
   }
+
   #drinks {
-   text-align: center;
-  }
-  #desserts {
     text-align: center;
   }
 
+  #desserts {
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 1500) {
+  #meals {
+    text-align: center;
+  }
+  #recipe {
+    margin: auto;
+    width: 40%;
+  }
+
+  #drinks {
+    text-align: center;
+  }
+
+  #desserts {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 720px) {
