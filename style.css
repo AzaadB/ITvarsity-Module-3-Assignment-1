@@ -235,41 +235,33 @@ body {
 /*RESPONSIVE LAYOUT*/
 @media only screen and (min-width: 600px) {
   #meals {
-    width: 80%;
-    margin: auto;
+  text-align: center;
   }
   #recipe {
-    width: 80%;
-    margin: auto;
+  text-align: center;
   }
 
   #drinks {
-    width: 80%;
-    margin: auto;
+    text-align: center;
   }
 
   #desserts {
-    width: 80%;
-    margin: auto;
+  text-align: center;
   }
 }
 
 @media only screen and (min-width: 1500px) {
   #meals {
-    width: 40%;
-    margin: auto;
+  text-align: center;
   }
   #recipe {
-    width: 40%;
-    margin: auto;
+  text-align: center;
   }
   #drinks {
-    width: 40%;
-    margin: auto;
+   text-align: center;
   }
   #desserts {
-    width: 40%;
-    margin: auto;
+    text-align: center;
   }
 
 }
