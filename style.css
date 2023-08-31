@@ -255,7 +255,6 @@ body {
     text-align: center;
   }
   #recipe {
-    /* text-align: center; */
     margin: auto;
     width: 80%;
   }
@@ -270,7 +269,7 @@ body {
 }
 
 
-@media only screen and (min-width: 1500) {
+@media only screen and (min-width: 1500px) {
   #meals {
     text-align: center;
   }
